@@ -1,3 +1,21 @@
+# wysiwyg Bootstrap 3 และ Bootstrap 4
+
+เป็น wysiwyg ที่เราเฝ้าติดตามตั้งแต่ปี 2016 ล่าสุดก็ยัง OK
+
+ข้อดีนอกจากรองรับ BS3, BS4, jQuery แล้วยังสามารถ Upload รูปได้ด้วย
+
+รูปภาพจะฝังไปใน database เลย ไม่ต้องหาที่จัดเก็บ upload image file
+
+มันจะแปลงรูปที่เรา upload ไปเป็น <img src="data:image/jpeg;base64 .................... >
+
+ดังนั้นเพิ่มได้ แก้ไขได้ ลบได้ ...
+
+ข้อเสียคือ database อาจจะบวมโต เพราะ data:image/jpeg;base64
+
+แต่ก็แลกด้วยข้อดีที่คุ้มค่า
+
+
+
 # Summernote
 
 Super simple WYSIWYG Editor.
